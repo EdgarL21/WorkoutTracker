@@ -14,8 +14,10 @@ app.use(express.json());
 app.use(express.static("public")); // gives acces to public folder
 
 // conncects ? look it up
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/WorkoutTracker", {
   useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
   useFindAndModify: false
 });
 
