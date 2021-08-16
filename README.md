@@ -1,40 +1,45 @@
-# Unit 18: NoSQL
+  <h1>Workout Tracker</h1>
 
-## Overview
-In the late 90s and early 2000s, developers began to explore database options that allowed their web applications to handle unstructured data to meet the growing and ever-changing demands of users and address the limitations of the relational model. While these alternative databases existed for decades prior, they didn’t receive the label NoSQL until this time period.  
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/mit)
+  
 
-The structure of a NoSQL database is something other than a table. There are several different types of NoSQL databases, such as key-value and graph. In this unit we will learn MongoDB, a document-oriented NoSQL database. MongoDB documents correspond to a row, or record, in SQL, but unlike rows, documents are analogous to JSON objects. You can see why MongoDB is a popular choice for Node.js developers! 
+  ## Description
+  An app that tracks the workouts you do. It tracks with strength and cardio workouts. Saves your workout to a MongoDB database. Displays the most recent workout performed
 
-Rather than object-relational mapping, we will implement object-_document_ mapping, or ODM, with Mongoose.js. 
+  ## Table Of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contribution)
+  * [Test](#test)
+  * [Questions](#questions)
 
-## Key Topics
-* NoSQL
-* MongoDB
-* Object-document mapping
-* Mongoose.js
-* CRUD
+  ## Installation
+  To install the necessary dependencies, run the following command:
+  <p style="background-color:rgb(20, 20, 20); padding:1em">
+  npm i
+  </p>
 
-## Comprehension Check
-You will be employer-ready if you can answer the following questions:
-1. What is the difference between SQL and NoSQL?
-2. What is object-document mapping? 
-3. What is the equivalent of Sequelize associations in Mongoose.js? 
+  ## Usage
+  N/A
 
-## Learning Objectives
-You will be employer-competitive if you are able to:
-* Explain the difference between SQL and NoSQL
-* Configure Heroku for deployment of a Node.js application using MongoDB
-* Explain and execute CRUD methods with MongoDB, using both the  and Mongoose.js
-* Use both a GUI and the Mongo command prompt to interface with a database
-* Integrate Mongoose in a full-stack web application
-* Create query builders to populate documents using refs
+  ## License
+  The license used is "mit"<br>
+  Click the license button at the top to learn more about your license. 
+  <br>
 
-## Homework: Workout Tracker
-Create and deploy full-stack workout tracker application. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+  ## Contribution
+  N/A
 
-## Helpful Links
-* [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
-* [MongoDB Website](https://www.mongodb.com/)
-* [Robo 3T Website](https://robomongo.org/download)
-* [MongoJS Documentation](https://www.npmjs.com/package/mongojs)
-* [Mongoose Documentation](http://mongoosejs.com/docs/guide.html)
+  ## Test
+  To run tests, run the following command:
+  <p style="background-color:rgb(20, 20, 20); padding:1em">
+  there are no tests
+  </p>
+
+  ## Questions
+  If you have any questions about the repo, open an issue or contact me directly at edgar21lc@gmail.com. You can find more of my work at https://github.com/EdgarL21
+  <br>
+  Contact me
+
+  
